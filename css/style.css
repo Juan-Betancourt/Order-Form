@@ -1,1 +1,50 @@
-/* TODO: Make it awesome */
+* {
+    color: black;
+    font-family: 'Vollkorn', serif;
+    outline: 1px, none;
+    background-color: rgb(116, 175, 175);
+}
+
+h1 {
+    font-size: 22px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url(img/buspic.jpg);
+    text-align: center;
+    line-height: 22px;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 150px;
+    margin: 25px;
+    outline: 1px, black;
+    display: inline-block;
+}
+
+#items {
+    background-color: white;
+    font-family: 'Vollkorn', serif;
+    outline: 1px none;
+}
+
+#quantity {
+    background-color: white;
+    font-family: 'Vollkorn', serif;
+    outline: 1px none;
+}
+
+input {
+    background-color: silver;
+    font-family: 'Vollkorn', serif;
+    outline: 1px none;
+}
