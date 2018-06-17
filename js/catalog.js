@@ -33,7 +33,7 @@ function handleSubmit(event) { // TODO: Prevent the page from reloading
     if (document.getElementById('quantity').value) {
         event.preventDefault();
         addSelectedItemToCart();
-        cart.saveToLocalStorage();
+        saveToLocalStorage();
         document.getElementById('cartContents').innerHTML = '';
         var viewCurrentCart = document.getElementById('cartContents');
         var addedToCartEl = document.createElement('addedToCartEl');
