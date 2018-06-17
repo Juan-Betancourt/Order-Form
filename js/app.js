@@ -1,5 +1,6 @@
 'use strict';
-
+//
+//
 // Cart constructor.
 var CartItem = function(product, quantity) {
     this.product = product;
